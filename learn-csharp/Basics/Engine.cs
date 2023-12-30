@@ -4,8 +4,10 @@
 	{
         public static void Main(string[] args)
         {
-            CsArrays.ArrayBasics();
-            CsHashtable.HashtableBasics();
+            //CsArrays.ArrayBasics();
+            //CsHashtable.HashtableBasics();
+            //CsDictionary.DictionaryBasics();
+            ListCustomType.UserData();
         }
 
     }
