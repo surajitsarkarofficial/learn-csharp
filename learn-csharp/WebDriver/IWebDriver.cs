@@ -6,7 +6,7 @@ namespace learn_csharp.WebDriver
 
 		void FindElement();
 
-		void SendKeys();
+		void SendKeys(string text);
 
 		void Click();
 

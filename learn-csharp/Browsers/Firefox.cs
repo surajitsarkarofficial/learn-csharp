@@ -15,9 +15,9 @@ namespace learn_csharp.Browsers
             Console.WriteLine("Firefox FindElements...");
         }
 
-        public void SendKeys()
+        public void SendKeys(string txt)
         {
-            Console.WriteLine("Firefox  SendKeys...");
+            Console.WriteLine("Firefox  SendKeys..."+txt);
         }
     }
 }

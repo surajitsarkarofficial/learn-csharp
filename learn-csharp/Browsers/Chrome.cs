@@ -15,9 +15,9 @@ namespace learn_csharp.Browsers
             Console.WriteLine("Chrome Find Elements...");
         }
 
-        public void SendKeys()
+        public void SendKeys(string txt)
         {
-            Console.WriteLine("Chrome SendKeys...");
+            Console.WriteLine("Chrome SendKeys..."+txt);
         }
     }
 }

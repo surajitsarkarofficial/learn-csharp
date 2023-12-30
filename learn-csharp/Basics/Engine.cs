@@ -1,6 +1,8 @@
 ﻿using learn_csharp.Browsers;
 using learn_csharp.WebDriver;
 using static learn_csharp.Basics.CsEnums;
+using learn_csharp.ExtentsionMethods;
+using learn_csharp.Linq;
 
 namespace learn_csharp.Basics
 {
@@ -13,16 +15,20 @@ namespace learn_csharp.Basics
             //CsDictionary.DictionaryBasics();
             //ListCustomType.UserData();
             //CsEnums.launchBrowser(Browser.FIREFOX);
-            IWebDriver driver = new Chrome();
+            /*IWebDriver driver = new Chrome();
             driver.FindElement();
             driver.Click();
-            driver.SendKeys();
+            driver.SendKeys("Hello Google");
+            driver.TypeText("Hello Linkedin.");
 
 
             driver = new Firefox();
             driver.FindElement();
             driver.Click();
-            driver.SendKeys();
+            driver.SendKeys("Hello Facebook");
+            driver.TypeText("Hello Linkedin.");*/
+
+            LinqBasics.LinqBasicOps();
         }
 
     }

@@ -12,10 +12,14 @@
     <None Remove="Basics\" />
     <None Remove="WebDriver\" />
     <None Remove="Browsers\" />
+    <None Remove="ExtentsionMethods\" />
+    <None Remove="Linq\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basics\" />
     <Folder Include="WebDriver\" />
     <Folder Include="Browsers\" />
+    <Folder Include="ExtentsionMethods\" />
+    <Folder Include="Linq\" />
   </ItemGroup>
 </Project>
