@@ -7,7 +7,7 @@ using learn_csharp.Delegate;
 
 namespace learn_csharp.Basics
 {
-	public class Engine
+	public class Runner
 	{
         public static void Main(string[] args)
         {
@@ -41,6 +41,10 @@ namespace learn_csharp.Basics
             ops(20, 10);
             ops = DelegateExamples.Div;
             ops(20, 10);
+
+            //Delegate using Lambda
+            ConcatString cs = (str1, str2) => { Console.WriteLine("Concatinated String is " + str1 + str2); };
+            cs("Hello", "C#");
         }
 
     }

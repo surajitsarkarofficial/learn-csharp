@@ -3,6 +3,7 @@ namespace learn_csharp.Delegate
 {
 
     delegate void Calculate(int n1, int n2);
+    delegate void ConcatString(string s1, string s2);
 
     public class DelegateExamples
 	{
