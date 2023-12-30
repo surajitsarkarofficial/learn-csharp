@@ -1,4 +1,6 @@
-﻿using static learn_csharp.Basics.CsEnums;
+﻿using learn_csharp.Browsers;
+using learn_csharp.WebDriver;
+using static learn_csharp.Basics.CsEnums;
 
 namespace learn_csharp.Basics
 {
@@ -10,7 +12,17 @@ namespace learn_csharp.Basics
             //CsHashtable.HashtableBasics();
             //CsDictionary.DictionaryBasics();
             //ListCustomType.UserData();
-            CsEnums.launchBrowser(Browser.FIREFOX);
+            //CsEnums.launchBrowser(Browser.FIREFOX);
+            IWebDriver driver = new Chrome();
+            driver.FindElement();
+            driver.Click();
+            driver.SendKeys();
+
+
+            driver = new Firefox();
+            driver.FindElement();
+            driver.Click();
+            driver.SendKeys();
         }
 
     }

@@ -10,8 +10,12 @@
 
   <ItemGroup>
     <None Remove="Basics\" />
+    <None Remove="WebDriver\" />
+    <None Remove="Browsers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basics\" />
+    <Folder Include="WebDriver\" />
+    <Folder Include="Browsers\" />
   </ItemGroup>
 </Project>
