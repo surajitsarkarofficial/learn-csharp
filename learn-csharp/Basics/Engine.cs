@@ -1,4 +1,6 @@
-﻿namespace learn_csharp.Basics
+﻿using static learn_csharp.Basics.CsEnums;
+
+namespace learn_csharp.Basics
 {
 	public class Engine
 	{
@@ -7,7 +9,8 @@
             //CsArrays.ArrayBasics();
             //CsHashtable.HashtableBasics();
             //CsDictionary.DictionaryBasics();
-            ListCustomType.UserData();
+            //ListCustomType.UserData();
+            CsEnums.launchBrowser(Browser.FIREFOX);
         }
 
     }
