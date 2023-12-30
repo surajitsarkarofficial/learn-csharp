@@ -3,6 +3,7 @@ using learn_csharp.WebDriver;
 using static learn_csharp.Basics.CsEnums;
 using learn_csharp.ExtentsionMethods;
 using learn_csharp.Linq;
+using learn_csharp.Delegate;
 
 namespace learn_csharp.Basics
 {
@@ -28,7 +29,18 @@ namespace learn_csharp.Basics
             driver.SendKeys("Hello Facebook");
             driver.TypeText("Hello Linkedin.");*/
 
-            LinqBasics.LinqBasicOps();
+            //LinqBasics.LinqBasicOps();
+
+
+            //Delegate Example
+            Calculate ops = DelegateExamples.Add;
+            ops(20, 10);
+            ops = DelegateExamples.Mul;
+            ops(20, 10);
+            ops = DelegateExamples.Sub;
+            ops(20, 10);
+            ops = DelegateExamples.Div;
+            ops(20, 10);
         }
 
     }
