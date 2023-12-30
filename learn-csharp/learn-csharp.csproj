@@ -8,4 +8,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Basics\" />
+    <None Remove="WebDriver\" />
+    <None Remove="Browsers\" />
+    <None Remove="ExtentsionMethods\" />
+    <None Remove="Linq\" />
+    <None Remove="Delegate\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Basics\" />
+    <Folder Include="WebDriver\" />
+    <Folder Include="Browsers\" />
+    <Folder Include="ExtentsionMethods\" />
+    <Folder Include="Linq\" />
+    <Folder Include="Delegate\" />
+  </ItemGroup>
 </Project>
