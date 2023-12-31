@@ -62,6 +62,30 @@ namespace learn_csharp.Basics
             //Params example
             //Params.ParamExample(10, "Suro", true, 'M');
 
+
+            /*
+            //Understand Struct and Class difference
+            //Class is call by reference
+            //Struct is call by value
+            StructExample c1 = new StructExample();
+            c1.myData = 100;
+            StructExample c2 = c1;
+            Console.WriteLine(c1.myData);
+            Console.WriteLine(c2.myData);
+            c1.myData = 200;
+            Console.WriteLine(c1.myData);
+            Console.WriteLine(c2.myData);
+
+            MyStruct s1 = new MyStruct();
+            s1.Val = 300;
+            MyStruct s2 = s1;
+            Console.WriteLine(s1.Val);
+            Console.WriteLine(s2.Val);
+            s1.Val = 400;
+            Console.WriteLine(s1.Val);
+            Console.WriteLine(s2.Val);
+            */
+
         }
 
         public static void methodRef(ref int x)
