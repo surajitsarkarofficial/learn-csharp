@@ -7,6 +7,10 @@ namespace learn_csharp.Inheritence
 		{
 			Console.WriteLine("I am a dog");
 		}
-	}
+        public override void printMsg2()
+        {
+            Console.WriteLine("I am Dog2");
+        }
+    }
 }
 

@@ -103,6 +103,9 @@ namespace learn_csharp.Basics
             gsd.printMsg();
             gsd.printDogMsg();
             gsd.PrintGSD();
+            Animal a = new Dog();
+            a.printMsg2();
+
 
 
 
