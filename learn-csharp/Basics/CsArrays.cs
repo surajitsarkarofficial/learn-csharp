@@ -31,7 +31,36 @@ namespace learn_csharp.Basics
                 Console.WriteLine(data);
             }
 
+            Console.WriteLine("Printing array 1 data before making call to modify Array - ");
+            foreach (int data in arr1)
+            {
+                Console.WriteLine(data);
+            }
+			modifyArray(arr1);
+            Console.WriteLine("Printing array 1 data after making call to modify Array - ");
+            foreach (int data in arr1)
+            {
+                Console.WriteLine(data);
+            }
+
+            //The above code proves Array is call by reference
+
         }
+
+		public static void modifyArray(int[] a)
+		{
+			for(int i=0;i<a.Length;i++)
+			{
+				int x = i + 3;
+				a[i] = x * 7;
+			}
+            Console.WriteLine("Printing array inside modify array - ");
+            foreach (int data in a)
+            {
+                Console.WriteLine(data);
+            }
+        }
+
 	}
 }
 
