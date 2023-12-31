@@ -4,6 +4,7 @@ using static learn_csharp.Basics.CsEnums;
 using learn_csharp.ExtentsionMethods;
 using learn_csharp.Linq;
 using learn_csharp.Delegate;
+using learn_csharp.Inheritence;
 
 namespace learn_csharp.Basics
 {
@@ -86,6 +87,7 @@ namespace learn_csharp.Basics
             Console.WriteLine(s2.Val);
             */
 
+            /*
             //Properties Example
             BankProperties bank = new BankProperties();
             bank.AccBal = 100;
@@ -94,6 +96,13 @@ namespace learn_csharp.Basics
             bank.AccBal = 3000;
             Console.WriteLine("Balance " + bank.AccBal);
             Console.WriteLine("ROI " + bank.ROI);
+            */
+
+            //Inheritence
+            GSD gsd = new GSD();
+            gsd.printMsg();
+            gsd.printDogMsg();
+            gsd.PrintGSD();
 
 
 
