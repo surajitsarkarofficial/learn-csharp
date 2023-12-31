@@ -1,10 +1,11 @@
 ﻿using learn_csharp.Browsers;
-using learn_csharp.WebDriver;
+//using learn_csharp.WebDriver;
 using static learn_csharp.Basics.CsEnums;
 using learn_csharp.ExtentsionMethods;
 using learn_csharp.Linq;
 using learn_csharp.Delegate;
 using learn_csharp.Inheritence;
+using learn_csharp.Interface;
 
 namespace learn_csharp.Basics
 {
@@ -98,6 +99,8 @@ namespace learn_csharp.Basics
             Console.WriteLine("ROI " + bank.ROI);
             */
 
+
+            /*
             //Inheritence
             GSD gsd = new GSD();
             gsd.printMsg();
@@ -105,7 +108,12 @@ namespace learn_csharp.Basics
             gsd.PrintGSD();
             Animal a = new Dog();
             a.printMsg2();
+            */
 
+            //Interface
+            IWebDriver wd = new MyBrowser();
+            wd.FindElement();
+            wd.Get();
 
 
 
