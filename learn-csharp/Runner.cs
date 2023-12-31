@@ -86,6 +86,18 @@ namespace learn_csharp.Basics
             Console.WriteLine(s2.Val);
             */
 
+            //Properties Example
+            BankProperties bank = new BankProperties();
+            bank.AccBal = 100;
+            Console.WriteLine("Balance " + bank.AccBal);
+            Console.WriteLine("ROI " + bank.ROI);
+            bank.AccBal = 3000;
+            Console.WriteLine("Balance " + bank.AccBal);
+            Console.WriteLine("ROI " + bank.ROI);
+
+
+
+
         }
 
         public static void methodRef(ref int x)
