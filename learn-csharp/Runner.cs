@@ -59,6 +59,9 @@ namespace learn_csharp.Basics
 
             */
 
+            //Params example
+            //Params.ParamExample(10, "Suro", true, 'M');
+
         }
 
         public static void methodRef(ref int x)
