@@ -31,7 +31,7 @@ namespace learn_csharp.Basics
 
             //LinqBasics.LinqBasicOps();
 
-
+            /*
             //Delegate Example
             Calculate ops = DelegateExamples.Add;
             ops(20, 10);
@@ -45,6 +45,31 @@ namespace learn_csharp.Basics
             //Delegate using Lambda
             ConcatString cs = (str1, str2) => { Console.WriteLine("Concatinated String is " + str1 + str2); };
             cs("Hello", "C#");
+            */
+
+            /*
+
+            //Call by Reference
+            int a = 100;
+            Console.WriteLine("Before making any calls " + a);
+            methodVal(a);
+            Console.WriteLine("After making a call to Method Val " + a);
+            methodRef(ref a);
+            Console.WriteLine("After making a call to Method " + a);
+
+            */
+
+        }
+
+        public static void methodRef(ref int x)
+        {
+            x = 400;
+            Console.WriteLine("In Ref Method , Value is changed to " + x);
+        }
+        public static void methodVal(int x)
+        {
+            x = 300;
+            Console.WriteLine("In Val Method , Value is changed to " + x);
         }
 
     }
