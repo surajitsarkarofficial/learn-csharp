@@ -8,6 +8,7 @@ using learn_csharp.Inheritence;
 using learn_csharp.Interface;
 using learn_csharp.Exceptions;
 using learn_csharp.Collection;
+using learn_csharp.Generics;
 
 namespace learn_csharp.Basics
 {
@@ -160,6 +161,13 @@ namespace learn_csharp.Basics
             //SortedList Examples
             MySortedList.SortedListExample();
             */
+
+            //Generics Example
+            MyGenericClass<string> mg = new MyGenericClass<string>("This is My String Class");
+            MyGenericClass<int> mg1 = new MyGenericClass<int>(100);
+            MyGenericClass<bool> mg2 = new MyGenericClass<bool>(true);
+            MyGenericClass<char> mg3 = new MyGenericClass<char>('S');
+            MyGenericClass<float> mg4 = new MyGenericClass<float>(100.06f);
 
         }
 
