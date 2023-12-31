@@ -6,6 +6,7 @@ using learn_csharp.Linq;
 using learn_csharp.Delegate;
 using learn_csharp.Inheritence;
 using learn_csharp.Interface;
+using learn_csharp.Exceptions;
 
 namespace learn_csharp.Basics
 {
@@ -110,12 +111,40 @@ namespace learn_csharp.Basics
             a.printMsg2();
             */
 
+
+            /*
             //Interface
             IWebDriver wd = new MyBrowser();
             wd.FindElement();
             wd.Get();
+            */
 
 
+
+            /*
+            //Custom Exception
+            string l2Feedback = "Negative";
+
+            try
+            {
+
+                if (l2Feedback != "Positive")
+                {
+                    throw new NoOfferException("L2 Feedback was " + l2Feedback);
+                }
+                else
+                {
+                    Console.WriteLine("Congratulations!! Your Offer is on its way...");
+
+                }
+            }catch(NoOfferException ex)
+            {
+                //Console.WriteLine(ex.Message);
+                //Console.WriteLine(ex.StackTrace);
+                Console.WriteLine(ex);
+                //Console.WriteLine(ex.GetType());
+            }
+            */
 
 
         }

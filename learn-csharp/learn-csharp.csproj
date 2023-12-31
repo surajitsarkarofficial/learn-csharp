@@ -17,6 +17,7 @@
     <None Remove="Delegate\" />
     <None Remove="Inheritence\" />
     <None Remove="Interface\" />
+    <None Remove="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basics\" />
@@ -27,5 +28,6 @@
     <Folder Include="Delegate\" />
     <Folder Include="Inheritence\" />
     <Folder Include="Interface\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
 </Project>
