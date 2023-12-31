@@ -7,6 +7,7 @@ using learn_csharp.Delegate;
 using learn_csharp.Inheritence;
 using learn_csharp.Interface;
 using learn_csharp.Exceptions;
+using learn_csharp.Collection;
 
 namespace learn_csharp.Basics
 {
@@ -146,6 +147,19 @@ namespace learn_csharp.Basics
             }
             */
 
+            /*
+             * Collection Examples
+
+            //LinkedList example
+            LinkedListExamples.LinkedListBasics();
+            //SortedSet Examples
+            SortedSet.SortedSetExamples();
+            //Dictionary Examples
+            MyDictionary.DictionaryExample();
+            MyDictionary.SortedDictionaryExample();
+            //SortedList Examples
+            MySortedList.SortedListExample();
+            */
 
         }
 

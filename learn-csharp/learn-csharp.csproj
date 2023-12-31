@@ -18,6 +18,7 @@
     <None Remove="Inheritence\" />
     <None Remove="Interface\" />
     <None Remove="Exceptions\" />
+    <None Remove="Collection\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basics\" />
@@ -29,5 +30,6 @@
     <Folder Include="Inheritence\" />
     <Folder Include="Interface\" />
     <Folder Include="Exceptions\" />
+    <Folder Include="Collection\" />
   </ItemGroup>
 </Project>
