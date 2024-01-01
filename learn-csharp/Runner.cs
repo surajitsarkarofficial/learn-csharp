@@ -1,10 +1,15 @@
 ﻿using learn_csharp.Browsers;
-using learn_csharp.WebDriver;
+//using learn_csharp.WebDriver;
 using static learn_csharp.Basics.CsEnums;
 using learn_csharp.ExtentsionMethods;
 using learn_csharp.Linq;
 using learn_csharp.Delegate;
 using learn_csharp.Inheritence;
+using learn_csharp.Interface;
+using learn_csharp.Exceptions;
+using learn_csharp.Collection;
+using learn_csharp.Generics;
+using learn_csharp.PartialClass;
 
 namespace learn_csharp.Basics
 {
@@ -98,6 +103,8 @@ namespace learn_csharp.Basics
             Console.WriteLine("ROI " + bank.ROI);
             */
 
+
+            /*
             //Inheritence
             GSD gsd = new GSD();
             gsd.printMsg();
@@ -105,11 +112,76 @@ namespace learn_csharp.Basics
             gsd.PrintGSD();
             Animal a = new Dog();
             a.printMsg2();
+            */
+
+
+            /*
+            //Interface
+            IWebDriver wd = new MyBrowser();
+            wd.FindElement();
+            wd.Get();
+            */
 
 
 
+            /*
+            //Custom Exception
+            string l2Feedback = "Negative";
 
+            try
+            {
 
+                if (l2Feedback != "Positive")
+                {
+                    throw new NoOfferException("L2 Feedback was " + l2Feedback);
+                }
+                else
+                {
+                    Console.WriteLine("Congratulations!! Your Offer is on its way...");
+
+                }
+            }catch(NoOfferException ex)
+            {
+                //Console.WriteLine(ex.Message);
+                //Console.WriteLine(ex.StackTrace);
+                Console.WriteLine(ex);
+                //Console.WriteLine(ex.GetType());
+            }
+            */
+
+            /*
+             * Collection Examples
+
+            //LinkedList example
+            LinkedListExamples.LinkedListBasics();
+            //SortedSet Examples
+            SortedSet.SortedSetExamples();
+            //Dictionary Examples
+            MyDictionary.DictionaryExample();
+            MyDictionary.SortedDictionaryExample();
+            //SortedList Examples
+            MySortedList.SortedListExample();
+            */
+
+            /*
+
+            //Generics Example
+            MyGenericClass<string> mg = new MyGenericClass<string>("This is My String Class");
+            MyGenericClass<int> mg1 = new MyGenericClass<int>(100);
+            MyGenericClass<bool> mg2 = new MyGenericClass<bool>(true);
+            MyGenericClass<char> mg3 = new MyGenericClass<char>('S');
+            MyGenericClass<float> mg4 = new MyGenericClass<float>(100.06f);
+            */
+
+            
+
+            //Partial Class Exapmles
+            Employee emp = new Employee();
+            emp.M1();
+            emp.M2();
+            Console.WriteLine(emp.i);
+            Console.WriteLine(emp.x);
+            
         }
 
         public static void methodRef(ref int x)

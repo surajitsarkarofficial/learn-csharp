@@ -16,6 +16,11 @@
     <None Remove="Linq\" />
     <None Remove="Delegate\" />
     <None Remove="Inheritence\" />
+    <None Remove="Interface\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Collection\" />
+    <None Remove="Generics\" />
+    <None Remove="PartialClass\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basics\" />
@@ -25,5 +30,10 @@
     <Folder Include="Linq\" />
     <Folder Include="Delegate\" />
     <Folder Include="Inheritence\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Collection\" />
+    <Folder Include="Generics\" />
+    <Folder Include="PartialClass\" />
   </ItemGroup>
 </Project>
