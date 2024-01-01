@@ -9,6 +9,7 @@ using learn_csharp.Interface;
 using learn_csharp.Exceptions;
 using learn_csharp.Collection;
 using learn_csharp.Generics;
+using learn_csharp.PartialClass;
 
 namespace learn_csharp.Basics
 {
@@ -162,13 +163,25 @@ namespace learn_csharp.Basics
             MySortedList.SortedListExample();
             */
 
+            /*
+
             //Generics Example
             MyGenericClass<string> mg = new MyGenericClass<string>("This is My String Class");
             MyGenericClass<int> mg1 = new MyGenericClass<int>(100);
             MyGenericClass<bool> mg2 = new MyGenericClass<bool>(true);
             MyGenericClass<char> mg3 = new MyGenericClass<char>('S');
             MyGenericClass<float> mg4 = new MyGenericClass<float>(100.06f);
+            */
 
+            
+
+            //Partial Class Exapmles
+            Employee emp = new Employee();
+            emp.M1();
+            emp.M2();
+            Console.WriteLine(emp.i);
+            Console.WriteLine(emp.x);
+            
         }
 
         public static void methodRef(ref int x)
